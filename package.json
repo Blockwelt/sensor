@@ -1,0 +1,24 @@
+{
+  "name": "sensor",
+  "version": "1.0.0",
+  "description": "Sensor that reads temp and hum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blockwelt/sensor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blockwelt/sensor/issues"
+  },
+  "homepage": "https://github.com/Blockwelt/sensor#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "socket.io": "^4.4.0",
+    "node-dht-sensor": "^0.4.3"
+  }
+}
